@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1800px;
+  margin: auto;
+}
+header {
+  background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+  padding: 25px 30px;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 1.6em;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+}
+
+header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header a:hover {
+  color: blueviolet;
+}

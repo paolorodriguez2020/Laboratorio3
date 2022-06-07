@@ -1,0 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+.form1 {
+  padding: 10px;
+}
+form .container-input {
+  margin-bottom: 23px;
+}
+
+td,
+th {
+  padding: 10px;
+  border: solid 1px black;
+}
+
+#button {
+  height: 30px;
+}
